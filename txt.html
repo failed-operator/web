@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 48px;
+            color: #333;
+            animation: fadeIn 2s ease-out;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+            animation: fadeIn 2s ease-out 1s;
+        }
+        .email {
+            font-weight: bold;
+            color: #007BFF;
+        }
+
+        /* Animation for text */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        /* Animation for moving text */
+        @keyframes slideIn {
+            0% { transform: translateY(50px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        /* Added hover effect to the email link */
+        .email a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .email a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Coming Soon</h1>
+    <p>For inquiries, please contact: <span class="email"><a href="mailto:fbi@failing.lol">fbi@failing.lol</a></span></p>
+
+    <!-- Spotify Embed -->
+    <iframe src="https://open.spotify.com/embed/artist/2S6bNoFLN4xiDSoEHlPE3s?si=9b4a0e4f2ec54b2d" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</body>
+</html>
